@@ -1,4 +1,9 @@
-# [Play it here.](https://idlepunk.github.io/)
+# 朋克放置（Idle Punk）
+
+## 汉化版：http://likexia.gitee.io/idlepunk
+
+## 英文版：https://idlepunk.github.io/
+
 
 **Idlepunk** by **Asher** is licensed under **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)**
 
