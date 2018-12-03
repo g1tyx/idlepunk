@@ -99,11 +99,11 @@ const itemList = [
 // itemList[0].upgradeText[3][1] will return the description for the 4th upgrade.
 // Cyberdecks.
 itemList[0].upgradeText = [
-    ['Upgrade to an Ergonomic Deck',    'As part of an initiative to lower employee suicide rates, Chui-Bazhusko Multinational developed the Ergonomic Deck. It gently releases both calming and energizing psychotropics into the palms of users.'],
-    ['Install Neural Interfaces',       'First developed by triGen Consolidated, the Neural Interface allows humans to traverse cyberspace using nothing but their brains. In addition, atrophied limbs can save you money on food.'],
-    ['Flash ZedSoft firmware',          'ZedSoft is the most revered Cyberdeck development company in the entire Inner Seoul Arcology. They have an exclusive contract with MILNET-KOREA, making their products difficult to source.'],
-    ['Create a clustered Superdeck',    'An ancient trick, by networking a large number of Decks together you can create a Superdeck, more powerful than the sum of its parts.'],
-    ['Install more RAM',                'Random Access Memory, very powerful but completely unstable. There are rumors that people in the Shenzhen Industrial Area use RAM to augment their biological memory.']
+    ['升级到符合人体工程学的平台',    '作为降低员工自杀率的举措的一部分，Chui-Bazhusko Multinational开发了人体工学甲板。 它温和地将镇静和活力的精神药物释放到用户的手掌中。'],
+    ['Install Neural Interfaces',       '最初由triGen Consolidated开发，神经接口允许人类只使用他们的大脑来穿越网络空间。 此外，萎缩的四肢可以节省食物的钱。'],
+    ['Flash ZedSoft firmware',          'ZedSoft是整个Inner Seoul Arcology中最受尊敬的网络平台开发公司。 他们与MILNET-KOREA签订了独家合同，使他们的产品难以采购。'],
+    ['Create a clustered Superdeck',    '一个古老的伎俩，通过将大量的平台联网在一起，您可以创建一个Superdeck，比其各个部分的总和更强大。'],
+    ['Install more RAM',                '随机存取存储器，非常强大但完全不稳定。 有传言称，深圳工业区的人们使用RAM来增强他们的生物记忆。']
 ]; // ICEPicks.
 itemList[1].upgradeText = [
     ['Update to an ICEBREAKER',             'Supposedly developed by legendary netrunner Strange Switch, the ICEBREAKER is the next generation of penetration software.'],
