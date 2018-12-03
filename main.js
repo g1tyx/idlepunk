@@ -249,12 +249,12 @@ function exportSave() {
     // Puts the save in a prompt box
     save();
     let savegame = localStorage.getItem(saveName);
-    window.prompt('Your save: ', savegame);
+    window.prompt('请复制你的存档并保存到安全的地方: ', savegame);
 }
 
 function importSave() {
     // Puts the given string in local storage.
-    var save = prompt('Paste save here');
+    var save = prompt('在这里粘贴存档代码');
     localStorage.setItem(saveName, save);
     load();
     location.reload();
@@ -262,7 +262,7 @@ function importSave() {
 
 function newGame() {
     // Deletes the save then reloads the game.
-    if (confirm('Are you sure you want to start a new game?')) { // Nobody likes misclicks.
+    if (confirm('你确定要开始新游戏吗？?')) { // Nobody likes misclicks.
         localStorage.removeItem(saveName);
         location.reload(true); //  reload(true) forces reload from server, ignores cache, this is probably not necessary.
     }
@@ -567,9 +567,9 @@ function changeUpgradeText(item) {
     HTMLEditor(item.div.upgradeName, upgradeName); // Updates name.
     HTMLEditor(item.div.upgradeDesc, upgradeDesc); // Updates desc.
 
-    const doublingText = 'Doubles the income of each ' + item.const.name + '.'; // Every upgrade will display this.
+    const doublingText = '每个 ' + item.const.name + ' 的收入翻倍。'; // Every upgrade will display this.
     if (item !== itemList[0]) {
-        const autoBuyingText = 'For every ' + item.const.name + ' you will generate 0.1 ' + itemList[item.const.ID - 1].const.name + '.'; // The 3rd upgrade will display this (except for the first item).
+        const autoBuyingText = '每拥有1个 ' + item.const.name + ' 就会产生 0.1 ' + itemList[item.const.ID - 1].const.name + '.'; // The 3rd upgrade will display this (except for the first item).
         if (upgradeCount === 3) HTMLEditor(item.div.upgradeDetails, doublingText + '<br>' + autoBuyingText);
         else HTMLEditor(item.div.upgradeDetails, doublingText);
     }
